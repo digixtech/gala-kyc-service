@@ -1,0 +1,47 @@
+{
+  "name": "@digixtech_gala/gala-kyc-service",
+  "version": "1.0.0",
+  "description": "module for kyc",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digixtech/gala-kyc-service.git"
+  },
+  "keywords": [
+    "kyc"
+  ],
+  "author": "charrida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digixtech/gala-kyc-service/issues"
+  },
+  "homepage": "https://github.com/digixtech/gala-kyc-service#readme",
+  "dependencies": {
+    "@digixtech_gala/gala-common-sdk": "git+https://github.com/digixtech/gala-common-sdk.git#main",
+    "axios": "^0.21.1",
+    "boom": "^7.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.5.7",
+    "escape-string-regexp": "^5.0.0",
+    "firebase-admin": "^6.5.1",
+    "hapi": "^17.5.3",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-swagger": "^9.0.0",
+    "html-pdf": "^2.1.0",
+    "image-size": "^0.8.3",
+    "inert": "^5.0.1",
+    "jimp": "^0.14.0",
+    "jsonwebtoken": "^8.3.0",
+    "minizip-asm.js": "^1.0.10",
+    "moment": "^2.22.2",
+    "phantomjs-prebuilt": "2.1.14",
+    "randomstring": "^1.1.5",
+    "susie": "^3.0.0",
+    "underscore": "^1.8.3",
+    "vision": "^5.2.0"
+  }
+}
